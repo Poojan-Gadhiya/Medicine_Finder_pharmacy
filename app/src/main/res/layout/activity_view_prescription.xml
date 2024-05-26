@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.View_prescription"
+    tools:ignore="Orientation">
+
+    <ImageView
+        android:id="@+id/img_view_prescription"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/txt_No_prescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No Prescription available"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="@dimen/_30sdp"
+        android:textColor="@color/btn_color"
+        android:visibility="gone"
+        android:textStyle="italic"/>
+
+
+</LinearLayout>

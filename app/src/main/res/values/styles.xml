@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/SkyBlue</item>
+        <item name="colorPrimaryDark">@color/btn_color</item>
+        <item name="colorAccent">@color/LightSkyBlue</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+        <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+
+        <!-- Used for the buttons -->
+
+        <item name="colorAccent">@color/btn_color</item>
+
+
+
+        <!-- Used for the title and text -->
+
+
+        <item name="android:textColorPrimary">@color/black</item>
+
+        <!-- Used for the background -->
+
+
+        <item name="android:background">#fff</item>
+
+    </style>
+
+</resources>

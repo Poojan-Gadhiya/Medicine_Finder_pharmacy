@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Medicine Finder Pharmacy</string>
+    <string-array name="city">
+        <item>Select city</item>
+        <item>Ahemdabad</item>
+        <item>Surat</item>
+        <item>Rajkot</item>
+        <item>Modasa</item>
+        <item>Baroda</item>
+        <item>Gandhinagar</item>
+    </string-array>
+
+    <string-array name="medicine_type">
+        <item>Select medicine type</item>
+        <item>tablet</item>
+        <item>capsuel</item>
+        <item>syrup</item>
+    </string-array>
+    <string name="title_activity_main2">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_mange_stock">mange_stock</string>
+    <string name="navigation_drawer_open">navigation_drawer_open</string>
+    <string name="navigation_drawer_close">navigation_drawer_close</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_view_rating_review">View Rating Review</string>
+    <string name="title_activity_order">Order</string>
+    <string name="title_activity_orders">Orders</string>
+    <string name="title_activity_order_list">Order list</string>
+    <string name="title_activity_order_detail">Order detail</string>
+    <string name="title_activity_preorder">Preorder</string>
+</resources>
